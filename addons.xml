@@ -16,7 +16,7 @@
 		<platform>all</platform>
 		<news>[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.1.7">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.1.8">
   <requires>
     <import addon="xbmc.gui" version="5.14.0" />
     <import addon="script.favourites" version="7.1.1" />
@@ -95,7 +95,9 @@
       <screenshot>resources/screenshot09.jpg</screenshot>
       <screenshot>resources/screenshot10.jpg</screenshot>
     </assets>
-    <news>3.1.7 (25-04-2019)
+    <news>3.1.8 (26-04-2019)
+     - Fix PVR channel logo and remaining time issues
+    3.1.7 (25-04-2019)
      - Add touch/mouse buttons in media views
     3.1.6 (24-04-2019)
      - Fix issues with shelf for custom home menu items
