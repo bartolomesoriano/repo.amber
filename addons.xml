@@ -16,7 +16,7 @@
 		<platform>all</platform>
 		<news>[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.1.11">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.1.12">
   <requires>
     <import addon="xbmc.gui" version="5.14.0" />
     <import addon="script.favourites" version="7.1.1" />
@@ -95,7 +95,9 @@
       <screenshot>resources/screenshot09.jpg</screenshot>
       <screenshot>resources/screenshot10.jpg</screenshot>
     </assets>
-    <news>3.1.11 (29-04-2019)
+    <news>3.1.12 (30-04-2019)
+     - Fix French translation
+    3.1.11 (29-04-2019)
      - Fix plot scrolling speed in Fanart view
      - Add French translation (thanks Cyberdom!)
     3.1.10 (28-04-2019)
