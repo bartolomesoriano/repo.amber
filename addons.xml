@@ -16,7 +16,7 @@
 		<platform>all</platform>
 		<news>[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.1.15">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.1.16">
   <requires>
     <import addon="xbmc.gui" version="5.14.0" />
     <import addon="script.favourites" version="7.1.1" />
@@ -95,7 +95,9 @@
       <screenshot>resources/screenshot09.jpg</screenshot>
       <screenshot>resources/screenshot10.jpg</screenshot>
     </assets>
-    <news>3.1.15 (05-05-2019)
+    <news>3.1.16 (06-05-2019)
+     - Improve selected color visibility in DialogSelect
+	3.1.15 (05-05-2019)
      - Fix French translation
 	 - Add Next Episodes TV Shelf
     3.1.14 (03-05-2019)
