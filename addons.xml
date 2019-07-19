@@ -60,7 +60,7 @@
 		<source>https://github.com/bartolomesoriano/script.skin.helper.widgets</source>
         <news>Provide tv show id and season number for grouped episodes</news>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.5">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.6">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -141,7 +141,10 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.5 (17-07-2019)
+        <news>3.2.6 (19-07-2019)
+     - Show Ratings as percent
+     - Be able to expand addon description in info
+        3.2.5 (17-07-2019)
      - Add missing skinning changes for Kodi Matrix
         3.2.4 (16-07-2019)
      - Update French translation
