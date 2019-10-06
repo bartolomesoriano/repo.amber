@@ -16,27 +16,7 @@
 		<platform>all</platform>
 		<news>[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
-</addon><addon id="script.skin.info.service" name="Skin Info Service" provider-name="phil65, SiLVO" version="1.0.3">
-	<requires>
-		<import addon="xbmc.python" version="2.26.0" />
-	</requires>
-	<extension library="default.py" point="xbmc.python.library" />
-	<extension library="default.py" point="xbmc.python.script">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Script used by skins to show extended media info.</summary>
-		<description lang="en">This script fetches extended information for several media types (artists, albums, movie sets etc.). Needs skin support.</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
-		<source>https://github.com/mikesilvo164/script.skin.info.service</source>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-		<news>Kodi v18 updates</news>
-	</extension>
-</addon><addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" provider-name="marcelveldt,bsoriano" version="1.0.66">
+</addon><addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" provider-name="marcelveldt,patrick-klein,bsoriano" version="1.0.78">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0" />
 		<import addon="xbmc.addon" version="12.0.0" />
@@ -57,17 +37,14 @@
 		<license>GPL v2.0</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
 		<website />
-		<source>https://github.com/bartolomesoriano/script.skin.helper.widgets</source>
-        <news>Provide tv show id and season number for grouped episodes</news>
+		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.9">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.20">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
-        <import addon="script.skin.helper.service" version="1.0.100" />
         <import addon="resource.uisounds.amber" version="1.0.0" />
         <import addon="script.skin.helper.widgets" version="1.0.22" />
-        <import addon="script.grab.fanart" version="0.14.1" />
         <import addon="script.skinshortcuts" version="1.0.17" />
     </requires>
     <extension debugging="false" point="xbmc.gui.skin">
@@ -86,6 +63,7 @@
         <summary lang="fr_FR">Pas d'usine à gaz, juste les médias avec une interface épurée</summary>
         <summary lang="he_IL">אין כלים נוספים, רק התקשורת שלך עם ממשק קל לניווט</summary>
         <summary lang="hu_HU">Semmi pazarlás, csak a médiáid, könnyen navigálható felülettel</summary>
+        <summary lang="is_IS">Alls ekki óþarfa prjál, heldur bara margmiðlunarefnið þitt með einföldu viðmóti</summary>
         <summary lang="it_IT">Skin leggera, i tuoi media con un'interfaccia semplice in cui navigare</summary>
         <summary lang="ko_KR">블로트웨어가 아닙니다. 쉬운 탐색 인터페이스를 가진 사용자의 미디어 자체입니다.</summary>
         <summary lang="lt_LT">Nieko nereikalingo, tik jūsų media įrašai ir lengvai valdoma vartotojo sąsaja</summary>
@@ -98,7 +76,7 @@
         <summary lang="zh_CN">没有大的软件，只有你的媒体和易于浏览的界面</summary>
         <summary lang="zh_TW">只有您的影音和簡單的界面</summary>
         <description lang="ar_SA">بلا برمجيات متضخمة، فقط وسائط </description>
-        <description lang="cs_CZ">No bloatware, just your media with an easy to navigate interface[CR] Použité některé textury z projektů Mediastream a Aeon.</description>
+        <description lang="cs_CZ">Nic zbytečného, jenom vaše media a snadné ovládání[CR] Použité některé textury z projektů Mediastream a Aeon.</description>
         <description lang="de_DE">Keine Bloatware, nur Ihre Medien mit einer einfach zu navigierenden Oberfläche.[CR]Benutzt Texturen aus den Mediastream und Aeon skins.</description>
         <description lang="en_AU">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
         <description lang="en_GB">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
@@ -110,6 +88,7 @@
         <description lang="fr_FR">Pas d'utilisation excessive des ressources, juste vos médias avec une interface facile à utiliser.[CR]Utilise quelques textures provenant des habillages Mediastream et Aeon.</description>
         <description lang="he_IL">מעטפת קלילה וללא רכיבים מיותרים, מאפשרת הצגת המדיה עם ממשק משתמש פשוט לניווט.[CR]משתמשת במאפייני עיצוב מסוימים מהמעטפות Mediastream ו-Aeon.</description>
         <description lang="hu_HU">Semmi pazarlás, csak a médiáid, könnyen navigálható felülettel.[CR]Néhány textúra a Mediastream és Aeon felszínből származik.</description>
+        <description lang="is_IS">Alls ekki óþarfa prjál, heldur bara margmiðlunarefnið þitt með einföldu viðmóti.[CR]Notar ýmsar áferðir úr Mediastream og Aeon skinnunum.</description>
         <description lang="it_IT">Skin leggera, i tuoi media con un'interfaccia semplice in cui navigare.[CR]Usa alcuni elementi grafici delle skin Mediastream e Aeon.</description>
         <description lang="ko_KR">블로트웨어가 아닌 그냥 쉬운 탐색 인터페이스를 가진 사용자의 미디어입니다.[CR]Mediastream 과 Aeon 스킨의 텍스처를 사용하였습니다.</description>
         <description lang="lt_LT">Nieko nereikalingo, tik jūsų media įrašai ir lengvai valdoma vartotojo sąsaja. [CR] Naudoja kai kurias tekstūras iš Mediastream ir Aeon temų.</description>
@@ -141,8 +120,10 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.9 (24-07-2019)
-     - Make home fanart background title clickable. Opens custom search
+        <news>3.2.20 (06-10-2019)
+        - Many changes! (Please see changelog.txt)
+        3.2.9 (24-07-2019)
+     - Make home background title clickable. Opens custom search.
         3.2.8 (20-07-2019)
      - Fix missing updates to the Amber repo
      - Fix sets info in Matrix when Extendedinfo enabled
