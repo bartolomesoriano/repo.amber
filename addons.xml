@@ -39,7 +39,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.29">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.31">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -120,7 +120,11 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.29 (25-10-2019)
+        <news>3.2.31 (11-12-2019)
+        - Start in skin backgrounds folder for selecting menu item backgrounds
+		3.2.30 (27-11-2019)
+        - Remove dependency on skin helper service for addon infolines
+        3.2.29 (25-10-2019)
         - Make shutdown menu customizable
         - Fixes to music and video OSD for non-puasable items
         - Misc. fixes
