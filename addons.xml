@@ -39,7 +39,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.31">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.32">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -120,7 +120,11 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.31 (11-12-2019)
+        <news>3.2.32 (31-12-2019)
+        - Revert start in skin background folders
+		- Make search categories customizable
+		- Improve navigation in all custom lists
+		3.2.31 (11-12-2019)
         - Start in skin backgrounds folder for selecting menu item backgrounds
 		3.2.30 (27-11-2019)
         - Remove dependency on skin helper service for addon infolines
