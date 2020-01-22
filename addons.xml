@@ -39,7 +39,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.34">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.36">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -122,7 +122,14 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.34 (14-01-2020)
+        <news>3.2.36 (22-01-2020)
+		- Subtitle button opens subtitle settings in OSD
+		- Finish work on video info and search
+		3.2.35 (20-01-2020)
+		- Add setting to select default view
+		- Add embuary info shelves
+		- Fixes/Optimizations to video info and search (WIP)
+		3.2.34 (14-01-2020)
 		- Add tmdb helper people shelves, addtitional movie/tv shelves
 		- Add tmdb helper trakt shelves
 		- Add option to start in 1st menu item for vert. menu
