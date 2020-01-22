@@ -39,7 +39,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.36">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.37">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -122,7 +122,9 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.36 (22-01-2020)
+        <news>3.2.37 (22-01-2020)
+		- Hotfix for when default view is not set
+		3.2.36 (22-01-2020)
 		- Subtitle button opens subtitle settings in OSD
 		- Finish work on video info and search
 		3.2.35 (20-01-2020)
