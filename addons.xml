@@ -39,7 +39,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.46">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.47">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -120,7 +120,14 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.46 (09-03-2020)
+        <news>3.2.47 (16-03-2020)
+		- Fix for posters not changing in List views
+		- Fix for subtitle popup in Video OSD. Fix for Next Aired images
+		- Fix for icons in different dialogs
+		- Fix for TV Shows with no duration
+		- Make Amber default backgrounds available as background options
+		- Misc. fixes in PVR
+		3.2.46 (09-03-2020)
 		- Add language/subtitle info to media views
 		- Make info panel optional in list views
 		- Make channel groups optional in PVR Guide
