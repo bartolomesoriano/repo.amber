@@ -39,7 +39,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.47">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.48">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -120,7 +120,10 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.47 (16-03-2020)
+        <news>3.2.48 (17-03-2020)
+		- Fix for color of labels in player process info
+		- Fix for pvr recording widgets in horizontal menu
+		3.2.47 (16-03-2020)
 		- Fix for posters not changing in List views
 		- Fix for subtitle popup in Video OSD. Fix for Next Aired images
 		- Fix for icons in different dialogs
