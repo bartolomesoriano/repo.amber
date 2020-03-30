@@ -39,7 +39,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.56">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.57">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -120,7 +120,10 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.56 (28-03-2020)
+        <news>3.2.57 (30-03-2020)
+		- Fix Up Next labels
+		- Misc. Fixes
+		3.2.56 (28-03-2020)
 		- Separate options to show main rating and cert in media views
 		3.2.55 (27-03-2020)
 		- More Fixes for default view when switching skins
@@ -157,34 +160,6 @@
 		- Make embuary helper and tmdb helper optional
 		- Custom Next Aired windows for embuary info and tmdb helper
 		- Misc. fixes
-		3.2.45 (16-02-2020)
-		- Fix for side blade issue in other languages
-		- New media flag icons (thanks newbii!)
-		3.2.44 (15-02-2020)
-        - Fix for default view issue
-		3.2.43 (29-01-2020)
-		- Increase favourite addons to 25
-		- Make favourites shelf dynamic
-		3.2.42 (28-01-2020)
-		- Add option to keep lists focused centered
-		3.2.41 (27-01-2020)
-		- Allow set tint of shelves background
-		- Allow set all tints to the same color
-		3.2.40 (26-01-2020)
-		- Hotfix for dialog background color
-		3.2.39 (26-01-2020)
-		- Complete color customization work
-		3.2.38 (23-01-2020)
-		- Allow customization of highlight color
-		3.2.37 (22-01-2020)
-		- Hotfix for when default view is not set
-		3.2.36 (22-01-2020)
-		- Subtitle button opens subtitle settings in OSD
-		- Finish work on video info and search
-		3.2.35 (20-01-2020)
-		- Add setting to select default view
-		- Add embuary info shelves
-		- Fixes/Optimizations to video info and search (WIP)
         </news>
     </extension>
 </addon></addons>
