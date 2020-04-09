@@ -1,20 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="repository.amber" name="Amber Repository" provider-name="bsoriano" version="1.0.0">
+<addons><addon id="repository.amber" name="Amber Repository" provider-name="bsoriano" version="1.0.1">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0" />
 	</requires>
 	<extension name="Amber Repo" point="xbmc.addon.repository">
 		<dir minversion="17.9.0">
-			<info compressed="true">https://github.com/bartolomesoriano/repo.amber/raw/master/addons.xml</info>
-			<checksum>https://github.com/bartolomesoriano/repo.amber/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/bartolomesoriano/repo.amber/raw/master</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/bartolomesoriano/repo.amber/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/bartolomesoriano/repo.amber/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/bartolomesoriano/repo.amber/master/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Amber skin for Leia and beyond</summary>
+		<summary>Amber skin for Leia</summary>
 		<description>Main Repository for Amber</description>
 		<platform>all</platform>
-		<news>[I]v1.0.0[/I][CR]- Initial Release</news>
+		<news>[I]v1.0.1[/I][CR]- Fix GitHub URLs
+		[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
 </addon><addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" provider-name="marcelveldt,patrick-klein,bsoriano" version="1.0.78">
 	<requires>
