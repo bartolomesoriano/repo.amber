@@ -40,7 +40,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.59">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.60">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -121,7 +121,12 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.59 (13-04-2020)
+        <news>3.2.60 (15-04-2020)
+		- Top Right Overlays as option (thanks newbii!) (WIP)
+		- Option for statistics not on shelf
+		- Larger logo on home and views
+		- Better icons (thanks newbii!)
+		3.2.59 (13-04-2020)
 		- Panel 2 and Big Panel 2 views
 		- Fixes for music info dialog
 		- Fix for favourites background
