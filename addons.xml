@@ -40,7 +40,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.61">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.62">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -121,9 +121,15 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.61 (17-04-2020)
-		- Fix LibreELEC settings bug
-		3.2.60 (15-04-2020)
+        <news>3.2.62 (19-04-2020)
+		- Add alternate layout for Big List
+		- Update part of French translation (thanks Cyberdom)
+		- Improve groupings when choosing items for menu/submenu in menu config.
+		- Option to hide unwatched episode count for tv shows in list views
+		- Misc. fixes
+		3.2.61 (17-04-2020)
+        - Fix LibreELEC settings bug
+        3.2.60 (15-04-2020)
 		- Top Right Overlays as option (thanks newbii!) (WIP)
 		- Option for statistics not on shelf
 		- Larger logo on home and views
