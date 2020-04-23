@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.amber" version="3.2.62" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
+<addon id="skin.amber" version="3.2.63" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.favourites" version="7.1.1"/>
@@ -80,7 +80,11 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.62 (19-04-2020)
+        <news>3.2.63 (23-04-2020)
+		- Option to use embuary helper for home backgrounds
+		- More work on top right overlays (still WIP)
+		- Misc. fixes
+		3.2.62 (19-04-2020)
 		- Add alternate layout for Big List
 		- Update part of French translation (thanks Cyberdom)
 		- Improve groupings when choosing items for menu/submenu in menu config.
@@ -122,26 +126,6 @@
 		- Add option to show/hide user rating
 		3.2.50 (18-03-2020)
 		- Fix label in French
-		3.2.49 (17-03-2020)
-		- More PVR fixes
-		3.2.48 (17-03-2020)
-		- Fix for color of labels in player process info
-		- Fix for pvr recording widgets in horizontal menu
-		3.2.47 (16-03-2020)
-		- Fix for posters not changing in List views
-		- Fix for subtitle popup in Video OSD. Fix for Next Aired images
-		- Fix for icons in different dialogs
-		- Fix for TV Shows with no duration
-		- Make Amber default backgrounds available as background options
-		- Misc. fixes in PVR
-		3.2.46 (09-03-2020)
-		- Add language/subtitle info to media views
-		- Make info panel optional in list views
-		- Make channel groups optional in PVR Guide
-		- Add clear logo to home and appropriate media views
-		- Make embuary helper and tmdb helper optional
-		- Custom Next Aired windows for embuary info and tmdb helper
-		- Misc. fixes
         </news>
     </extension>
 </addon>
