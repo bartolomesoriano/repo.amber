@@ -40,7 +40,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.63">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.64">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -121,7 +121,11 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.63 (23-04-2020)
+        <news>3.2.64 (24-04-2020)
+		- Fix overlay for episodes in list views
+		- Option to disable Top 250 in media views
+		- Fix collection count info in views
+		3.2.63 (23-04-2020)
 		- Option to use embuary helper for home backgrounds
 		- More work on top right overlays (still WIP)
 		- Misc. fixes
@@ -147,26 +151,6 @@
 		- Add per-view, per media type disable panel and swap panel list view options
 		- Add larger image option for pictures in list views
 		- Misc. Fixes
-		3.2.57 (30-03-2020)
-		- Fix Up Next labels
-		- Misc. Fixes
-		3.2.56 (28-03-2020)
-		- Separate options to show main rating and cert in media views
-		3.2.55 (27-03-2020)
-		- More Fixes for default view when switching skins
-		3.2.54 (27-03-2020)
-		- More Fixes for default view when switching skins
-		3.2.53 (27-03-2020)
-		- Fix for default view when switching skins
-		3.2.52 (23-03-2020)
-		- More fixes for cutoff text in list views
-		3.2.51 (19-03-2020)
-		- Fix cutoff text in list view when audio/subs not shown
-		- Add option to show/hide main rating and MPAA in media views
-		- Add option to select which ratings are shown in video info
-		- Add option to show/hide user rating
-		3.2.50 (18-03-2020)
-		- Fix label in French
         </news>
     </extension>
 </addon></addons>
