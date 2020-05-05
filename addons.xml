@@ -40,7 +40,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.71">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.72">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
