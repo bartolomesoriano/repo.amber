@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.amber" version="3.2.66" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
+<addon id="skin.amber" version="3.2.67" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.favourites" version="7.1.1"/>
@@ -80,7 +80,9 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.66 (04-05-2020)
+        <news>3.2.67 (05-05-2020)
+        - Fix recently added shelves issue
+		3.2.66 (04-05-2020)
 		- Remove number of movies in collection from top right overlay
 		- Fix for issue with video addons triggering info
 		- Fix for PVR group manager dialog
@@ -111,15 +113,6 @@
 		- Option for statistics not on shelf
 		- Larger logo on home and views
 		- Better icons (thanks newbii!)
-		3.2.59 (13-04-2020)
-		- Panel 2 and Big Panel 2 views
-		- Fixes for music info dialog
-		- Fix for favourites background
-		- Misc. Fixes
-		3.2.58 (06-04-2020)
-		- Add per-view, per media type disable panel and swap panel list view options
-		- Add larger image option for pictures in list views
-		- Misc. Fixes
         </news>
     </extension>
 </addon>
