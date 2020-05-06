@@ -1,3 +1,5 @@
+3.2.73 (06-05-2020)
+- Skin LibreELEC settings dialogs
 3.2.67 (05-05-2020)
 - Fix recently added shelves issue
 3.2.66 (04-05-2020)

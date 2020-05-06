@@ -80,7 +80,9 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.67 (05-05-2020)
+        <news>3.2.73 (06-05-2020)
+        - Skin LibreELEC settings dialogs
+		3.2.67 (05-05-2020)
         - Fix recently added shelves issue
 		3.2.66 (04-05-2020)
 		- Remove number of movies in collection from top right overlay
