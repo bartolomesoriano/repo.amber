@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.amber" version="3.2.78" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
+<addon id="skin.amber" version="3.2.79" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.favourites" version="7.1.1"/>
@@ -80,8 +80,9 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.78 (08-05-2020)
-		- Fix missing playlists
+        <news>3.2.79 (09-05-2020)
+		- Improve in progress icons (thanks newbii)
+		- Fixes to player process info
 		3.2.77 (08-05-2020)
 		- Improve icons (thanks newbii)
 		- More fixes to hours and minutes display
