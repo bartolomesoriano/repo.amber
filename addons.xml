@@ -40,7 +40,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.79">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.80">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -121,7 +121,13 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.79 (09-05-2020)
+        <news>3.2.80 (15-05-2020)
+		- Add banners for movies in icon media views
+		- Allow Embuary Helper for backgrounds for nodes
+		- Fix recently played tv shows shelf for Kodi 18.6
+		- Add option to limit number of fanarts used for background 
+		- French language fixes
+		3.2.79 (09-05-2020)
 		- Improve in progress icons (thanks newbii)
 		- Fixes to player process info
 		3.2.77 (08-05-2020)
