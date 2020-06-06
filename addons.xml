@@ -40,7 +40,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.87">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.88">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -96,7 +96,10 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.87 (04-06-2020)
+        <news>3.2.88 (06-06-2020)
+		- Fixes to new alphabet strip for mouse use
+		- Fixes to fanart view
+		3.2.87 (04-06-2020)
 		- Fixes to 3 shelves together and triple row shelves
 		- Change select dialog to show bigger artwork
 		- Option to shift Fanart view focus to the right
