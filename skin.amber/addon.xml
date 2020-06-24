@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.amber" version="3.2.94" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
+<addon id="skin.amber" version="3.2.95" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.favourites" version="7.1.1"/>
@@ -55,7 +55,10 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.94 (20-06-2020)
+        <news>3.2.95 (24-06-2020)
+		- Allow low option for shelves in horizontal menu
+		- Misc. fixes
+		3.2.94 (20-06-2020)
 		- Allow multiple images per genre for custom paths for video and music genre fanart
 		- Misc. fixes
 		3.2.93 (17-06-2020)
@@ -103,28 +106,6 @@
 		- Fix recently played tv shows shelf for Kodi 18.6
 		- Add option to limit number of fanarts used for background 
 		- French language fixes
-		3.2.79 (09-05-2020)
-		- Improve in progress icons (thanks newbii)
-		- Fixes to player process info
-		3.2.77 (08-05-2020)
-		- Improve icons (thanks newbii)
-		- More fixes to hours and minutes display
-		- Add Amber version in skin settings
-		- Provide basic video info in player process info overlay
-		- More fixes for German translation
-		3.2.76 (07-05-2020)
-		- Fix duration when show hours and minutes is set
-		- Fix for German translation
-		3.2.75 (07-05-2020)
-		- Move EH for Playlist backgrounds to a per menu item option
-		- Small fix to LibreELEC settings
-		3.2.74 (06-05-2020)
-		- Allow custom nodes as background and statistics line
-		- Option to use Embuary Helper for playlist backgrounds
-		- Allow using Kodi or Embuary Helper for home backgrounds
-		- Fix in German translation
-		3.2.73 (06-05-2020)
-        - Skin LibreELEC settings dialogs
         </news>
     </extension>
 </addon>
