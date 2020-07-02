@@ -40,7 +40,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.95">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.96">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -96,7 +96,11 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.95 (24-06-2020)
+        <news>3.2.96 (02-07-2020)
+		- Allow user to choose artwork type for shelves (square and poster for now)
+		- Fixes for music in Fanart view
+		- Misc. fixes
+		3.2.95 (24-06-2020)
 		- Allow low option for shelves in horizontal menu
 		- Misc. fixes
 		3.2.94 (20-06-2020)
