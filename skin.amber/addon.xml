@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.amber" version="3.2.103" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
+<addon id="skin.amber" version="3.2.104" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.favourites" version="7.1.1"/>
@@ -55,7 +55,12 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.103 (09-10-2020)
+        <news>3.2.104 (12-10-2020)
+		- Fix for actor images not showing when browsing 
+		- Add support for Movie Director Thumbnails addon
+		- Fix for top right marks not showing for video addons
+		- Misc. fixes
+		3.2.103 (09-10-2020)
 		- Try another fix for not being able to switch to simple list
 		3.2.102 (09-10-2020)
 		- Fix issue of not being able to switch to simple list
