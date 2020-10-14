@@ -40,7 +40,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.104">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.105">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -96,7 +96,9 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.104 (12-10-2020)
+        <news>3.2.105 (14-10-2020)
+		- Add option to show seek bar at the bottom
+		3.2.104 (12-10-2020)
 		- Fix for actor images not showing when browsing 
 		- Add support for Movie Director Thumbnails addon
 		- Fix for top right marks not showing for video addons
