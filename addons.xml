@@ -40,7 +40,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.105">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.106">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -96,7 +96,13 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.105 (14-10-2020)
+        <news>3.2.106 (25-10-2020)
+		- Fix for season posters not showing in video info dialog
+		- Make Music OSD and Video OSD popup dialogs more mouse-friendly
+		- Fixes for Music OSD when seek bar is at the bottom
+		- Fix highlight color for trakt dialogs
+		- Misc. fixes
+		3.2.105 (14-10-2020)
 		- Add option to show seek bar at the bottom
 		3.2.104 (12-10-2020)
 		- Fix for actor images not showing when browsing 
@@ -145,42 +151,6 @@
 		- Three row shelves with larger icons
 		- New View Selector/Configurator (uses script.skinvariables)
 		- Misc. Fixes
-		3.2.88 (06-06-2020)
-		- Fixes to new alphabet strip for mouse use
-		- Fixes to fanart view
-		3.2.87 (04-06-2020)
-		- Fixes to 3 shelves together and triple row shelves
-		- Change select dialog to show bigger artwork
-		- Option to shift Fanart view focus to the right
-		- Option for mouse/touch-friendly alphabet strip
-		- Misc. fixes
-		3.2.86 (27-05-2020)
-		- Up to 5 Custom Shelves
-		- Option to show Three Shelves Together
-		- Option to show triple row shelves
-		- Complete French translation
-		- Misc. fixes
-		3.2.84 (21-05-2020)
-		- Option to show/hide media play count in views
-		- Fix showing time to go to when seeking with numbers
-		- More French language fixes
-		- Misc. fixes
-		3.2.83 (20-05-2020)
-		- Show song play count info in List views
-		- Fix collection count info for BigList view
-		- Fix for mouse events in VideoOSD
-		- More French language fixes
-		3.2.82 (18-05-2020)
-		- Make optional settings for backgrounds and info lines
-		- Fixes for fanart view
-		- Show play count for songs in media views
-		- More French language fixes
-		3.2.80 (15-05-2020)
-		- Add banners for movies in icon media views
-		- Allow Embuary Helper for backgrounds for nodes
-		- Fix recently played tv shows shelf for Kodi 18.6
-		- Add option to limit number of fanarts used for background 
-		- French language fixes
         </news>
     </extension>
 </addon></addons>
