@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.amber" version="3.2.106" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
+<addon id="skin.amber" version="3.2.107" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.favourites" version="7.1.1"/>
@@ -55,7 +55,13 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.106 (25-10-2020)
+        <news>3.2.107 (30-10-2020)
+		- Add flags for HDR/SDR, Atmos, DTS-X and sources (webdl, hdtv, etc.) Thanks newbii!
+		- Add option to show file name instead of title in Icons view
+		- Fixes transparent background in music OSD
+		- Fix for not being able to close lyrics dialog
+		- Misc. fixes
+		3.2.106 (25-10-2020)
 		- Fix for season posters not showing in video info dialog
 		- Make Music OSD and Video OSD popup dialogs more mouse-friendly
 		- Fixes for Music OSD when seek bar is at the bottom
@@ -80,36 +86,6 @@
 		- Added Simple List view
 		- Added option for highlight color to match poster color
 		- Misc. fixes
-		3.2.99 (09-07-2020)
-		- Provide autoscroll options for shelves
-		- Option for label scrolling for shelves
-		- Misc. Fixes
-		3.2.98 (09-07-2020)
-		- Finish artwork options work for shelves
-		- Misc. Fixes
-		3.2.97 (03-07-2020)
-		- Fix issue with menu build
-		- Fixes for music in Fanart view
-		- Proper localization of shortcuts management dialog entries
-		3.2.96 (02-07-2020)
-		- Allow user to choose artwork type for shelves (square and poster for now)
-		- Fixes for music in Fanart view
-		- Misc. fixes
-		3.2.95 (24-06-2020)
-		- Allow low option for shelves in horizontal menu
-		- Misc. fixes
-		3.2.94 (20-06-2020)
-		- Allow multiple images per genre for custom paths for video and music genre fanart
-		- Misc. fixes
-		3.2.93 (17-06-2020)
-		- Faster cast if show only local info
-		- Custom paths for video and music genre icons and fanart
-		- Oscars and Golden Globes info in video info dialog
-		- Misc. Fixes
-		3.2.92 (12-06-2020)
-		- Three row shelves with larger icons
-		- New View Selector/Configurator (uses script.skinvariables)
-		- Misc. Fixes
         </news>
     </extension>
 </addon>
