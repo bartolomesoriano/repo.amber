@@ -40,7 +40,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.108">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.109">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -96,7 +96,11 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.108 (31-10-2020)
+        <news>3.2.109 (04-11-2020)
+		- Add casing options for file-name based media flags
+		- Fix media flags when pressing info in full screen video
+		- Fix titles not showing for folders in Fanart view
+		3.2.108 (31-10-2020)
 		- Use filenameandpath instead of filename for new flags
 		- Fixes for tmdbhelper calls in video info dialog
 		- Really Fix transparent background in music OSD
