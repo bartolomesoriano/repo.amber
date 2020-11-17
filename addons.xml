@@ -40,7 +40,7 @@
 		<website />
 		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.110">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.111">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -96,7 +96,9 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.110 (16-11-2020)
+        <news>3.2.111 (17-11-2020)
+		- Fix positioning issues in Triple view
+		3.2.110 (16-11-2020)
 		- Add Triple view for tvshows and artists
 		3.2.109 (04-11-2020)
 		- Add casing options for file-name based media flags
