@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.amber" version="3.2.114" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
+<addon id="skin.amber" version="3.2.115" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.favourites" version="7.1.1"/>
         <import addon="resource.uisounds.amber" version="1.0.0"/>
-        <import addon="script.skin.helper.widgets" version="1.0.22"/>
         <import addon="script.skinshortcuts" version="1.0.17"/>
     </requires>
     <extension point="xbmc.gui.skin" debugging="false">
@@ -55,7 +54,15 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.114 (06-12-2020)
+        <news>3.2.115 (13-12-2020)
+		- Provide color picker without addons (thx jurialmunkey)
+		- Replace backup options with script.xbmcbackup
+		- Add auto close video OSD options
+		- More extra artwork options for applicable media views
+		- Add Estonian translation (thx rimasx)
+		- Update Finnish translation (thx g0mez)
+		- Misc. fixes
+		3.2.114 (06-12-2020)
 		- Provide three default font size options
 		- Provide fully featured Now Playing options
 		- Misc. fixes

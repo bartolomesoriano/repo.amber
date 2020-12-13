@@ -17,35 +17,11 @@
 		<news>[I]v1.0.1[/I][CR]- Fix GitHub URLs
 		[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
-</addon><addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" provider-name="marcelveldt,patrick-klein,bsoriano" version="1.0.78">
-	<requires>
-		<import addon="xbmc.python" version="2.24.0" />
-		<import addon="xbmc.addon" version="12.0.0" />
-        <import addon="script.module.metadatautils" version="1.0.0" />
-        <import addon="script.module.simplecache" version="1.0.0" />
-	</requires>
-
-	<extension library="plugin.py" point="xbmc.python.pluginsource">
-        <provides>video audio</provides>
-    </extension>
-    <extension library="service.py" point="xbmc.service" start="login" />
-
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Ready to use widgets for all kind of media types</summary>
-        <description />
-		<language />
-		<platform>all</platform>
-		<license>GPL v2.0</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
-		<website />
-		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
-	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.114">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.115">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
         <import addon="resource.uisounds.amber" version="1.0.0" />
-        <import addon="script.skin.helper.widgets" version="1.0.22" />
         <import addon="script.skinshortcuts" version="1.0.17" />
     </requires>
     <extension debugging="false" point="xbmc.gui.skin">
@@ -96,7 +72,15 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.114 (06-12-2020)
+        <news>3.2.115 (13-12-2020)
+		- Provide color picker without addons (thx jurialmunkey)
+		- Replace backup options with script.xbmcbackup
+		- Add auto close video OSD options
+		- More extra artwork options for applicable media views
+		- Add Estonian translation (thx rimasx)
+		- Update Finnish translation (thx g0mez)
+		- Misc. fixes
+		3.2.114 (06-12-2020)
 		- Provide three default font size options
 		- Provide fully featured Now Playing options
 		- Misc. fixes
