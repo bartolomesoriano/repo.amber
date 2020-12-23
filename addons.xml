@@ -17,7 +17,7 @@
 		<news>[I]v1.0.1[/I][CR]- Fix GitHub URLs
 		[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.117">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.118">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -72,7 +72,12 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.117 (14-12-2020)
+        <news>3.2.118 (23-12-2020)
+		- Add fanart.jpg as background option (for files mode)
+		- Add Logo view 
+		- Add Director to all applicable views
+		- Misc. Fixes
+		3.2.117 (14-12-2020)
 		- Fix header poistioning in select dialogs
 		- Fix missing localizations
 		- Update French translation
