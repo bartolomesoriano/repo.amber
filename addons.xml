@@ -17,7 +17,7 @@
 		<news>[I]v1.0.1[/I][CR]- Fix GitHub URLs
 		[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.122">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.124">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -72,7 +72,11 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.122 (04-01-2021)
+        <news>3.2.124 (06-01-2021)
+		- Fix for playing items that have no path from video info
+		3.2.123 (05-01-2021)
+		- Fix for inclusion in Kodi repo
+		3.2.122 (04-01-2021)
 		- Make embuary helper and tmdb helper completely optional
 		- Fix for overlay not shown for files in list views
 		- Update translations

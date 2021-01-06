@@ -1,0 +1,631 @@
+3.2.124 (06-01-2021)
+- Fix for playing items that have no path from video info
+3.2.123 (05-01-2021)
+- Fix for inclusion in Kodi repo
+3.2.122 (04-01-2021)
+- Make embuary helper and tmdb helper completely optional
+- Fix for overlay not shown for files in list views
+- Update translations
+- Misc. fixes
+3.2.121 (31-12-2020)
+- Add smaller favourites options
+- Fixes
+3.2.120 (27-12-2020)
+- Fixes for inclusion in Kodi repo
+3.2.119 (24-12-2020)
+- Fix OK label not showing in select dialog
+3.2.118 (23-12-2020)
+- Add fanart.jpg as background option (for files mode)
+- Add Logo view 
+- Add Director to all applicable views
+- Misc. Fixes
+3.2.117 (14-12-2020)
+- Fix header poistioning in select dialogs
+- Fix missing localizations
+- Update French translation
+3.2.116 (14-12-2020)
+- Try to fix error of not being able to access media
+3.2.115 (13-12-2020)
+- Provide color picker without addons (thx jurialmunkey)
+- Replace backup options with script.xbmcbackup
+- Add auto close video OSD options
+- More extra artwork options for applicable media views
+- Add Estonian translation (thx rimasx)
+- Update Finnish translation (thx g0mez)
+- Misc. fixes
+3.2.114 (06-12-2020)
+- Provide three default font size options
+- Provide fully featured Now Playing options
+- Misc. fixes
+3.2.113 (27-11-2020)
+- Fix overlay position in fanart view
+- Make weather info consistent between menu and shelves
+- Smaller default font for better readability in other languages
+- Update French translation
+3.2.112 (25-11-2020)
+- Add Netflix-style options to Fanart view
+- Add dim options for Fanart view
+- Misc. fixes
+3.2.111 (17-11-2020)
+- Fix positioning issues in Triple view
+3.2.110 (16-11-2020)
+- Add Triple view for tvshows and artists
+3.2.109 (04-11-2020)
+- Add casing options for file-name based media flags
+- Fix media flags when pressing info in full screen video
+- Fix titles not showing for folders in Fanart view
+3.2.108 (31-10-2020)
+- Use filenameandpath instead of filename for new flags
+- Fixes for tmdbhelper calls in video info dialog
+- Really Fix transparent background in music OSD
+- Add missing French translations (thanks cyberdom)
+- Misc. fixes
+3.2.107 (30-10-2020)
+- Add flags for HDR/SDR, Atmos, DTS-X and sources (webdl, hdtv, etc.) Thanks newbii!
+- Add option to show file name instead of title in Icons view
+- Fixes transparent background in music OSD
+- Fix for not being able to close lyrics dialog
+- Misc. fixes
+3.2.106 (25-10-2020)
+- Fix for season posters not showing in video info dialog
+- Make Music OSD and Video OSD popup dialogs more mouse-friendly
+- Fixes for Music OSD when seek bar is at the bottom
+- Fix highlight color for trakt dialogs
+- Misc. fixes
+3.2.105 (14-10-2020)
+- Add option to show seek bar at the bottom
+3.2.104 (12-10-2020)
+- Fix for actor images not showing when browsing 
+- Add support for Movie Director Thumbnails addon
+- Fix for top right marks not showing for video addons
+- Misc. fixes
+3.2.103 (09-10-2020)
+- Try another fix for not being able to switch to simple list
+3.2.102 (09-10-2020)
+- Fix issue of not being able to switch to simple list
+3.2.101 (08-10-2020)
+- Fix issue of no background when trying to change viewtype
+- Add some missing French translations
+3.2.100 (06-10-2020)
+- Partial deprecation of tv show next aired
+- Added Simple List view
+- Added option for highlight color to match poster color
+- Misc. fixes
+3.2.99 (09-07-2020)
+- Provide autoscroll options for shelves
+- Option for label scrolling for shelves
+- Misc. Fixes
+3.2.98 (09-07-2020)
+- Finish artwork options work for shelves
+- Misc. Fixes
+3.2.97 (03-07-2020)
+- Fix issue with menu build
+- Fixes for music in Fanart view
+- Proper localization of shortcuts management dialog entries
+3.2.96 (02-07-2020)
+- Allow user to choose artwork type for shelves (square and poster for now)
+- Fixes for music in Fanart view
+- Misc. fixes
+3.2.95 (24-06-2020)
+- Allow low option for shelves in horizontal menu
+- Misc. fixes
+3.2.94 (20-06-2020)
+- Allow multiple images per genre for custom paths for video and music genre fanart
+- Misc. fixes
+3.2.93 (17-06-2020)
+- Faster cast if show only local info
+- Custom paths for video and music genre icons and fanart
+- Oscars and Golden Globes info in video info dialog
+- Misc. Fixes
+3.2.92 (12-06-2020)
+- Three row shelves with larger icons
+- New View Selector/Configurator (uses script.skinvariables)
+- Misc. Fixes
+3.2.88 (06-06-2020)
+- Fixes to new alphabet strip for mouse use
+- Fixes to fanart view
+3.2.87 (04-06-2020)
+- Fixes to 3 shelves together and triple row shelves
+- Change select dialog to show bigger artwork
+- Option to shift Fanart view focus to the right
+- Option for mouse/touch-friendly alphabet strip
+- Misc. fixes
+3.2.86 (27-05-2020)
+- Up to 5 Custom Shelves
+- Option to show Three Shelves Together
+- Option to show triple row shelves
+- Complete French translation
+- Misc. fixes
+3.2.84 (21-05-2020)
+- Option to show/hide media play count in views
+- Fix showing time to go to when seeking with numbers
+- More French language fixes
+- Misc. fixes
+3.2.83 (20-05-2020)
+- Show song play count info in List views
+- Fix collection count info for BigList view
+- Fix for mouse events in VideoOSD
+- More French language fixes
+3.2.82 (18-05-2020)
+- Make optional settings for backgrounds and info lines
+- Fixes for fanart view
+- Show play count for songs in media views
+- More French language fixes
+3.2.80 (15-05-2020)
+- Add banners for movies in icon media views
+- Allow Embuary Helper for backgrounds for nodes
+- Fix recently played tv shows shelf for Kodi 18.6
+- Add option to limit number of fanarts used for background 
+- French language fixes
+3.2.79 (09-05-2020)
+- Improve in progress icons (thanks newbii)
+- Fixes to player process info
+3.2.77 (08-05-2020)
+- Improve icons (thanks newbii)
+- More fixes to hours and minutes display
+- Add Amber version in skin settings
+- Provide basic video info in player process info overlay
+- More fixes for German translation
+3.2.76 (07-05-2020)
+- Fix duration when show hours and minutes is set
+- Fix for German translation
+3.2.75 (07-05-2020)
+- Move EH for Playlist backgrounds to a per menu item option
+- Small fix to LibreELEC settings
+3.2.74 (06-05-2020)
+- Allow custom nodes as background and statistics line
+- Option to use Embuary Helper for playlist backgrounds
+- Allow using Kodi or Embuary Helper for home backgrounds
+- Fix in German translation
+3.2.73 (06-05-2020)
+- Skin LibreELEC settings dialogs
+3.2.67 (05-05-2020)
+- Fix recently added shelves issue
+3.2.66 (04-05-2020)
+- Remove number of movies in collection from top right overlay
+- Fix for issue with video addons triggering info
+- Fix for PVR group manager dialog
+- Fixes for in progress top right overlay
+3.2.65 (30-04-2020)
+- Use tmdb helper for blur (colorbox not maintained anymore)
+- Continue work on top right overlays (thanks newbii)
+- Fanart for genres,studios,countries,etc.
+- Misc. fixes
+3.2.64 (24-04-2020)
+- Fix overlay for episodes in list views
+- Option to disable Top 250 in media views
+- Fix collection count info in views
+3.2.63 (23-04-2020)
+- Option to use embuary helper for home backgrounds
+- More work on top right overlays (still WIP)
+- Misc. fixes
+3.2.62 (19-04-2020)
+- Add alternate layout for Big List
+- Update part of French translation (thanks Cyberdom)
+- Improve groupings when choosing items for menu/submenu in menu config.
+- Option to hide unwatched episode count for tv shows in list views
+- Misc. fixes
+3.2.61 (17-04-2020)
+- Fix LibreELEC settings bug
+3.2.60 (15-04-2020)
+- Top Right Overlays as option (thanks newbii!) (WIP)
+- Option for statistics not on shelf
+- Larger logo on home and views
+- Better icons (thanks newbii!)
+3.2.59 (13-04-2020)
+- Panel 2 and Big Panel 2 views
+- Fixes for music info dialog
+- Fix for favourites background
+- Misc. Fixes
+3.2.58 (06-04-2020)
+- Add per-view, per media type disable panel and swap panel list view options
+- Add larger image option for pictures in list views
+- Misc. Fixes
+3.2.57 (30-03-2020)
+- Fix Up Next labels
+- Misc. Fixes
+3.2.56 (28-03-2020)
+- Separate options to show main rating and cert in media views
+3.2.55 (27-03-2020)
+- More Fixes for default view when switching skins
+3.2.54 (27-03-2020)
+- More Fixes for default view when switching skins
+3.2.53 (27-03-2020)
+- Fix for default view when switching skins
+3.2.52 (23-03-2020)
+- More fixes for cutoff text in list views
+3.2.51 (19-03-2020)
+- Fix cutoff text in list view when audio/subs not shown
+- Add option to show/hide main rating and MPAA in media views
+- Add option to select which ratings are shown in video info
+- Add option to show/hide user rating
+3.2.50 (18-03-2020)
+- Fix label in French
+3.2.49 (17-03-2020)
+- More PVR fixes
+3.2.48 (17-03-2020)
+- Fix for color of labels in player process info
+- Fix for pvr recording widgets in horizontal menu
+3.2.47 (16-03-2020)
+- Fix for posters not changing in List views
+- Fix for subtitle popup in Video OSD. Fix for Next Aired images
+- Fix for icons in different dialogs
+- Fix for TV Shows with no duration
+- Make Amber default backgrounds available as background options
+- Misc. fixes in PVR
+3.2.46 (09-03-2020)
+- Add language/subtitle info to media views
+- Make info panel optional in list views
+- Make channel groups optional in PVR Guide
+- Add clear logo to home and appropriate media views
+- Make embuary helper and tmdb helper optional
+- Custom Next Aired windows for embuary info and tmdb helper
+- Misc. fixes
+3.2.45 (16-02-2020)
+- Fix for side blade issue in other languages
+- New media flag icons (thanks newbii!)
+3.2.44 (15-02-2020)
+- Fix for default view issue
+3.2.43 (29-01-2020)
+- Increase favourite addons to 25
+- Make favourites shelf dynamic
+3.2.42 (28-01-2020)
+- Add option to keep lists focused centered
+3.2.41 (27-01-2020)
+- Allow set tint of shelves background
+- Allow set all tints to the same color
+3.2.40 (26-01-2020)
+- Hotfix for dialog background color
+3.2.39 (26-01-2020)
+- Complete color customization work
+3.2.38 (23-01-2020)
+- Allow customization of highlight color
+3.2.37 (22-01-2020)
+- Hotfix for when default view is not set
+3.2.36 (22-01-2020)
+- Subtitle button opens subtitle settings in OSD
+- Finish work on video info and search
+3.2.35 (20-01-2020)
+- Add setting to select default view
+- Add embuary info shelves
+- Fixes/Optimizations to video info and search (WIP)
+3.2.34 (14-01-2020)
+- Add tmdb helper people shelves, addtitional movie/tv shelves
+- Add tmdb helper trakt shelves
+- Add option to start in 1st menu item for vert. menu
+- tmdb helper and embuary helper are requirements
+3.2.33 (09-01-2020)
+- Use new capabilities of tmdb helper in video info
+- Improve PVR Guide layout (Thanks Dumyat!)
+3.2.32a (02-01-2020)
+- Localize search options
+3.2.32 (31-12-2019)
+- Revert start in skin background folders
+- Make search categories customizable
+- Improve navigation in all custom lists
+3.2.31 (11-12-2019)
+- Start in skin backgrounds folder for selecting menu item backgrounds
+3.2.30 (27-11-2019)
+- Remove dependency on skin helper service for addon infolines
+3.2.29 (25-10-2019)
+- Make shutdown menu customizable
+- Fixes to music and video OSD for non-puasable items
+- Misc. fixes
+3.2.28 (23-10-2019)
+- Show Season in episode info details. Click to jump to season
+3.2.27 (19-10-2019)
+- Fixes for Music OSD
+3.2.26 (18-10-2019)
+- Fixes for playback from sets info
+- Add missing options to Extras for shelf items
+- Misc. fixes
+3.2.25 (13-10-2019)
+- Add use poster for blur
+3.2.24 (13-10-2019)
+- Fixes
+- Update Brazilian Portuguese translation
+3.2.23 (12-10-2019)
+- Remove all Matrix code from Leia version
+3.2.22 (09-10-2019)
+- Fixes to blur settings
+- Changes to fanart view
+- Make TV Show clickable for episodes in video info
+3.2.21 (07-10-2019)
+- Fixes for latest tmdb helper version
+3.2.20 (06-10-2019)
+- Add alphabet strip in all media views
+- Add additional info in info dialog (budget, revenue, awards, RT Reviews, RT Consensus)
+- Drop extendedinfo support and add plugin.video.themoviedb.helper and script.embuary.info support
+- Add custom info lists in video info (configurable):
+  -- Similar movies and tv shows
+  -- Also directed by
+  -- Recommended
+  -- From same year
+  -- From same studio
+  -- From same genre
+  -- Crew
+  -- Cast also appears in
+- Add Seasons to tv show info dialog for easy browsing
+- Add new shelves (widgets) from script.embuary.helper: 
+  -- Movies & tv shows by random genre   
+  -- Next Up episodes
+- Drop support for skin helper service (no more Additional Shelves)
+3.2.9 (24-07-2019)
+- Make home background title clickable. Opens custom search.
+3.2.8 (20-07-2019)
+- Fix missing updates to the Amber repo
+- Fix sets info in Matrix when Extendedinfo enabled
+3.2.7 (19-07-2019)
+- Add missing skin playlists default shelves
+- Misc. fixes
+3.2.6 (19-07-2019)
+- Show Ratings as percent
+- Be able to expand addon description in info
+- Misc. fixes
+3.2.5 (17-07-2019)
+- Add missing skinning changes for Kodi Matrix
+3.2.4 (16-07-2019)
+- Update French translation
+3.2.3 (15-07-2019)
+- Use poster for playlist shelves
+3.2.2 (15-07-2019)
+- Position fixes on Big List
+- Fix comment errors on English language files
+3.2.1 (15-07-2019)
+- Add Skin Widgets' Recommended Episodes shelf
+3.2.0 (14-07-2019)
+- Integration with skinshortcuts
+- Many other changes!
+3.1.19 (23-05-2019)
+- Enable subtitle download for PVR
+- Add release date for episodes in shelves
+3.1.18 (12-05-2019)
+- Add videoplayer info to DialogSeekBar
+- Restore all other languages from old version of skin
+3.1.17 (09-05-2019)
+- Fixes for updating in Kodi repo
+3.1.16 (06-05-2019)
+- Improve selected color visibility in DialogSelect
+3.1.15 (05-05-2019)
+- Fix French translation
+- Add Next Episodes TV Shelf
+3.1.14 (03-05-2019)
+- Initial implementation of Kiosk Mode
+- Misc. fixes
+3.1.13 (01-05-2019)
+- Fix typo in French translation
+- Fix width of media flags group in Fanart view
+3.1.12 (30-04-2019)
+- Fix French translation
+3.1.11 (29-04-2019)
+- Fix plot scrolling speed in Fanart view
+- Add French translation (thanks Cyberdom!)
+3.1.10 (28-04-2019)
+- Fix PVR Progress bar and channel logo on info
+3.1.9 (26-04-2019)
+- Add keymap to get to sideblade with touch/mouse
+3.1.8 (26-04-2019)
+- Fix PVR channel logo and remaining time issues
+3.1.7 (25-04-2019)
+- Add touch/mouse buttons in media views
+3.1.6 (24-04-2019)
+- Fix issues with shelf for custom home menu items
+- Fix issue with animated weather icons
+- Miscellaneous fixes
+3.1.5 (21-04-2019)
+- Option to remove second label on List views
+- New Search functionality without addons
+- Miscellaneous fixes
+3.1.4 (11-04-2019)
+- Miscellneous fixes
+3.1.3 (05-04-2019)
+- Skinned Global Search add-on
+- Added ExtendedInfo integration
+- Miscellaneous fixes
+3.1.2 (31-03-2019)
+- Added next episode info for tv shows in all views
+- Skinned TV Show Next Aired addon windows
+- Miscellaneous fixes
+3.1.1 (28-03-2019)
+- Increased number of shelf items from 10 to 20
+- Increased number of Custom Home Items from 9 to 15
+- Artwork Beef support (replaces Artwork Downloader)
+- Manage Dependencies button in skin settings (to manage required and optional addons)
+- Add back Jarvis shelf functionality
+- Special Features video add-on support
+- Miscellaneous fixes
+3.1.0
+Leia compatibility update
+3.0.8
+Small bugfixes
+3.0.7
+Language updates
+Fix scroll in EPG when not focused if timer\recording is active
+Fix Video OSD DVD menu button
+Fix missing 3d icon
+Fix info not fading during music playback. 
+Improve weather info contrast
+Add orphan visibility to addon list view 
+Fix 'In Progress TV Shows' shelf not doing anything
+Allow new shelves to be seen even when selecting Jarvis style shelves
+Add some transparency to fanart overlay
+Add animation to Panel Include to make it fade in/out of window open/close
+Re-add library count on Home support for Jarvis shelves.
+Allow mouse support in VideoOSD submenus
+Try to fix failing start-up on Android devices.
+Improve contrast in PVR Guide view
+Don't duplicate PVR plot if it is the same in EpisodeName
+Correctly format some variables.
+Re-add shortcut to skin widgets setting in Skin Settings
+Fix overlapping Plex shelves with Jarvis style shelves
+Fix for Quit showing even when disabled
+Fix for plex shelves not showing
+Add extra info for episodes to subtitle DialogSubtitles.xml
+
+3.0.6
+Add switch to Skin Settings to allow use of Jarvis style shelves again
+Allow hiding weather info when Jarvis shelves enabled
+Add ability to show a shelf for custom menu items.
+GUI diaglog fixes
+Fix for overlapping RSS if media is playing
+Fix addon play not working (shelf launch type)
+
+3.0.5
+Add home shelves for Videos and Pictures
+Add picture info to panel views
+A few fixes and new Info dialogs
+New improved shelf layout - the tabs have gone
+Add more standard addon fonts
+Add nextUp Still watching info
+Use settings background for Skin Settings window
+Add support for Skin Shortcuts
+Krypton change: Add 'Add timer' to DialogPVRInfo.xml
+Update Eventlog list to new style
+Re add ability to go full screen when starting music
+Make progress clearer for Highlighted channel in PVRChannels view
+Add setting to hide Music OSD info during playback
+Move library count and rss on home screen
+Fix: background images not working for Skin Shortcuts home items
+Fix: Make sure set items use their own fanart if available
+Fix: Unwatched tv shows shelf not activating
+Updated DialogSubtitles
+Krypton required changes: update smartplaylist buttons
+Some PVR Window tweaks
+Move Quit Menu settings into Home Menu settings
+Make sure 12hr clock format doesn't scroll
+Remove now banned TV Tunes addon
+Fix radio recordings not hidden when set
+Add random episodes shelf option
+Fix for program add-ons links not working on android
+Add support for video seek label - Kodi #10769
+Add profiles to Home Settings submenu
+Initial test of extrafanart support for Krypton
+Add screenshots to Addon Info Dialog
+Re-Add PVR Now and Next Recording widgets for TV and Radio
+Add weather shelf to home screen
+
+3.0.4
+Settings rework and allow shelf tab configuration,Font updates,Localise some labels
+Fixed missing TV On deck shelf,Change unwatched show counter in list view based on feedback
+Plot variable tidyup and PlotOutline fallback,Remove redundant hyphens
+Update PVR Global headings,DialogSelect update,Initial PlayerProcessInfo window
+Krypton - required changes to DialogGameControllers.xml
+Fix DialogGameControllers.xml as it was completely broken
+Add Skin settings to root settings menu,Updated to DialogVideoInfo.xml
+Add Plotoutline fallback for VideoFullScreen.xml,Remove unneeded media,Show tempo in seekbar
+Reworked MusicOSD for consistency with VideoOSD,Add setting to hide media flags
+Update Playlist windows
+
+3.0.3
+Bugfixes, allow disabling of certain views
+
+3.0.2
+Bugfixes and minor tweaks
+
+3.0.1
+Big Fat Freaky Fun Funky update,many bug fixes and changes related to shelves,font, widget removal
+
+3.0.0 
+Initial Krypton branch
+
+2.2.5
+Bugfixes and cleanups, fixed PVR groupmanager, add OSMC and OpenElec settings links, add auto-update toggle
+
+2.2.4
+OSD Update, bugfixes and cleanups, translation update and auto pull by Transifex, aspect ratio fix of Favourites
+
+2.2.3
+Fix parental lock to PVR manager, update video OSD, add toggle showing of plot info, fix watched icons on movie widget, remove unused file, minor bugfixes
+
+2.2.2
+Tidy up codec info and make it's position seekbar aware, bug fixes.
+
+2.2.1
+Added ability to show lock status on title bar next to time\date via skin setting, bug fixes.
+
+2.2
+Initial support for Kodi 16 Jarvis
+
+2.1.3
+Fix Amber GUI sounds, remove WMC PVR files, RecordPrefs.xml and DeleteTimer.xml are available on the kodi forum for each PVR add-on that
+uses them, display weather icon on all Menu entries if weather is enabled, Font sizes added to support screensavers, 
+correct PVR selector for unknown genre, fix PVR channel dialogs, 7th line codec info fix
+
+2.1.2
+Fix bookmark menu and selector, update background images to 1080, remove redundant quit sub-menu items,
+addon.xml and AddonBrowser.xml fixes
+
+2.1.1
+First release for Kodi 15 Isengard, migrate sounds to add-on, remove outdated MyPVR.xml, fix masked actor selector bar,
+support ATSC subchannels, fix Visualisation preset lists, update subtitle flags and fix sr crash, 
+update default background to 1080
+
+2.1.0
+Updates for Kodi 15 Isengard (internal), add Genre to TV Shows, SublimeKodi fixes, Add Settings and Shutdown sub-menu entries,
+Removed outdated TvTunes hooks
+
+2.0.17
+Fix missing keyboard layout button, Fix missing iso/dvd disc icon, Fix pointers, Add 3D Icon and Menu
+
+2.0.16
+Fix PVR screen alignments, update github source
+
+2.0.15
+Update german translation, exit Timeline with "Back-Key", no overlapping of Backgrounds for Video Controls from VideoOSD.xml,
+Hide Background of Video Controls when in Live TV as Background from VideoFullScreen.xml is used, Added Plex User Display 
+
+2.0.14
+Undefined Includes fix, fixed EPG Guide view (now, next, channel), Picture dialog alignment error fixed
+
+2.0.13
+Add seekbar buffer amount, Plexbmc fixes, add license/forum/source to addon.xml
+
+2.0.12
+Add Live-TV OSD and add "Launch" button to DialogAddonInfo
+
+2.0.11
+Fix addon.xml default setting
+
+2.0.10
+Fix add-on browser for Helix
+
+2.0.9
+Remove skin debug info
+
+2.0.8
+Fix label in settings for custom background images
+
+2.0.7
+More Helix Cosmectics
+
+2.0.6
+More Fixes for Helix
+
+2.0.5
+Fix Favourites Text Position
+
+2.0.4
+Updated language files from Transifex
+
+1.6.1
+Fix opening add ons on Android
+Add possibility to define custom entry point for TV Shows
+
+1.6.0
+Add PVR shortcuts to submenu
+Fix label color in PVR
+Re-wamp media covers
+Add videoplaylist link to side menu
+Fix settings descriptions
+
+1.5.8
+Fix add ons settings
+Add option to hide library sections - plexbmc profiles support
+Increase plexbmc episode items
+Finally fix busy dialog
+Plexbmc add-on support improvements
+Add holiday snowfall effect
+Fix size and scrolling of titles in panel view
+
+Ver 1.5.0
+Initial release to Gotham repository
