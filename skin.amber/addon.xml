@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.amber" version="3.2.124" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
+<addon id="skin.amber" version="3.2.125" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.favourites" version="7.1.1"/>
@@ -54,7 +54,10 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.124 (06-01-2021)
+        <news>3.2.125 (07-01-2021)
+		- Option to hide seek bar when paused
+		- Use EPGEventIcon instead of Icon for PVR
+		3.2.124 (06-01-2021)
 		- Fix for playing items that have no path from video info
 		3.2.123 (05-01-2021)
 		- Fix for inclusion in Kodi repo
