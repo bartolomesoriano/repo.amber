@@ -17,7 +17,7 @@
 		<news>[I]v1.0.1[/I][CR]- Fix GitHub URLs
 		[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.125">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.126">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -72,7 +72,13 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.125 (07-01-2021)
+        <news>3.2.126 (30-01-2021)
+		- Icon only vertical menu/submenu 
+		- Video Lyrics (thx manfeed)
+		- High position for shelves
+		- Playing whole albums from shelves optional
+		- Misc. fixes
+		3.2.125 (07-01-2021)
 		- Option to hide seek bar when paused
 		- Use EPGEventIcon instead of Icon for PVR
 		3.2.124 (06-01-2021)
@@ -89,27 +95,6 @@
 		- Fixes
 		3.2.120 (27-12-2020)
 		- Fixes for inclusion in Kodi repo
-		3.2.119 (24-12-2020)
-		- Fix OK label not showing in select dialog
-		3.2.118 (23-12-2020)
-		- Add fanart.jpg as background option (for files mode)
-		- Add Logo view 
-		- Add Director to all applicable views
-		- Misc. Fixes
-		3.2.117 (14-12-2020)
-		- Fix header poistioning in select dialogs
-		- Fix missing localizations
-		- Update French translation
-		3.2.116 (14-12-2020)
-		- Try to fix error of not being able to access media
-		3.2.115 (13-12-2020)
-		- Provide color picker without addons (thx jurialmunkey)
-		- Replace backup options with script.xbmcbackup
-		- Add auto close video OSD options
-		- More extra artwork options for applicable media views
-		- Add Estonian translation (thx rimasx)
-		- Update Finnish translation (thx g0mez)
-		- Misc. fixes
         </news>
     </extension>
 </addon></addons>
