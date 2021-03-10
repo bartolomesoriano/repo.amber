@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.amber" version="3.2.126" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
+<addon id="skin.amber" version="3.2.127" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.favourites" version="7.1.1"/>
@@ -54,29 +54,24 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.126 (30-01-2021)
+        <news>3.2.127 (10-03-2021)
+		- Option to left-align vertical menu text
+		- Local search select dialog improvements
+		- Improvements for normal lyrics
+		- Seek bar improvements/fixes
+		- Alternate layout for favourites
+		- Add trakt rating in video info dialog
+		- Make optional the dimming of background when showing lyrics
+		- Option to hide top bar in main window
+		- Option to disable fanart of now playing item
+		- Option for single column in Simple List view
+		- Misc. fixes
+		3.2.126 (30-01-2021)
 		- Icon only vertical menu/submenu 
 		- Video Lyrics (thx manfeed)
 		- High position for shelves
 		- Playing whole albums from shelves optional
 		- Misc. fixes
-		3.2.125 (07-01-2021)
-		- Option to hide seek bar when paused
-		- Use EPGEventIcon instead of Icon for PVR
-		3.2.124 (06-01-2021)
-		- Fix for playing items that have no path from video info
-		3.2.123 (05-01-2021)
-		- Fix for inclusion in Kodi repo
-		3.2.122 (04-01-2021)
-		- Make embuary helper and tmdb helper completely optional
-		- Fix for overlay not shown for files in list views
-		- Update translations
-		- Misc. fixes
-		3.2.121 (31-12-2020)
-		- Add smaller favourites options
-		- Fixes
-		3.2.120 (27-12-2020)
-		- Fixes for inclusion in Kodi repo
         </news>
     </extension>
 </addon>
