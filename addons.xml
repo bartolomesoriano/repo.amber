@@ -17,7 +17,7 @@
 		<news>[I]v1.0.1[/I][CR]- Fix GitHub URLs
 		[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.128">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.130">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -72,25 +72,12 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.128 (11-03-2021)
-		- Add missing view types includes file
-		3.2.127 (10-03-2021)
-		- Option to left-align vertical menu text
-		- Local search select dialog improvements
-		- Improvements for normal lyrics
-		- Seek bar improvements/fixes
-		- Alternate layout for favourites
-		- Add trakt rating in video info dialog
-		- Make optional the dimming of background when showing lyrics
-		- Option to hide top bar in main window
-		- Option to disable fanart of now playing item
-		- Option for single column in Simple List view
-		- Misc. fixes
-		3.2.126 (30-01-2021)
-		- Icon only vertical menu/submenu 
-		- Video Lyrics (thx manfeed)
-		- High position for shelves
-		- Playing whole albums from shelves optional
+        <news>3.2.130 (15-04-2021)
+		- Colored media flags
+		- Bottom Shortcuts
+		- Option to disable lyrics
+		- Option to open video info dialog from video OSD
+		- Option to show end time in media views and shelves
 		- Misc. fixes
         </news>
     </extension>
