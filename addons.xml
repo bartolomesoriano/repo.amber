@@ -17,7 +17,7 @@
 		<news>[I]v1.0.1[/I][CR]- Fix GitHub URLs
 		[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.132">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.133">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -72,7 +72,9 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.132 (29-04-2021)
+        <news>3.2.133 (30-04-2021)
+		- Fix fade in submenu option
+		3.2.132 (29-04-2021)
 		- Add Play Random button to sideblade
         - Add "Surprise Me" options to menu config
         - Add option to hide seekbar when ff or rw
