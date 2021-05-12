@@ -17,7 +17,7 @@
 		<news>[I]v1.0.1[/I][CR]- Fix GitHub URLs
 		[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.137">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.138">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -72,7 +72,11 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.137 (10-05-2021)
+        <news>3.2.138 (12-05-2021)
+		- Option to hide cast in video info
+		- Misc. fixes
+		- Update translations
+		3.2.137 (10-05-2021)
 		- Option to choose default menu item
 		- Misc. fixes
 		- Update translations
