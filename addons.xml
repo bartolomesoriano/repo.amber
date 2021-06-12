@@ -17,7 +17,7 @@
 		<news>[I]v1.0.1[/I][CR]- Fix GitHub URLs
 		[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.138">
+</addon><addon id="skin.amber" name="Amber" provider-name="Jester, Joethepartylion, Pecinko, bsoriano" version="3.2.139">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -72,45 +72,18 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.138 (12-05-2021)
+        <news>3.2.139 (12-06-2021)
+		- Right List view
+		- Rating Overlay
+		- Choose artowrk for full screen/OSD
+		- Add back use of skinhelper.skinbackup and skin.helper.colorpicker
+		- Reorganize Media Views settings
+		- Misc. fixes
+		- Update translations
+		3.2.138 (12-05-2021)
 		- Option to hide cast in video info
 		- Misc. fixes
 		- Update translations
-		3.2.137 (10-05-2021)
-		- Option to choose default menu item
-		- Misc. fixes
-		- Update translations
-		3.2.136 (04-05-2021)
-		- Fix footer info in custom search window
-		3.2.135 (04-05-2021)
-		- Fix onclick on custom lists when TMDb Helper disabled
-		3.2.134 (02-05-2021)
-		- Fix hide seekbar when paused
-		3.2.133 (30-04-2021)
-		- Fix fade in submenu option
-		3.2.132 (29-04-2021)
-		- Add Play Random button to sideblade
-        - Add "Surprise Me" options to menu config
-        - Add option to hide seekbar when ff or rw
-		- Update translations
-        - Misc. fixes
-		3.2.131 (27-04-2021)
-		- Fade in submenu option
-        - Search by plot for movies/tv shows/episodes
-        - Sideblade Search is now custom search
-        - Play button in video info now available for online/addon items
-        - Netflix-style Fanart view for Albums and Artists
-        - Option to show title in footer for Netflix-style Fanart view
-        - Short weather widgets (only 5 items)
-        - Add Default widgets for new installations
-        - Misc. fixes
-		3.2.130 (15-04-2021)
-		- Colored media flags
-		- Bottom Shortcuts
-		- Option to disable lyrics
-		- Option to open video info dialog from video OSD
-		- Option to show end time in media views and shelves
-		- Misc. fixes
         </news>
     </extension>
 </addon></addons>
