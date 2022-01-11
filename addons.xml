@@ -17,7 +17,7 @@
 		<news>[I]v1.0.1[/I][CR]- Fix GitHub URLs
 		[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="bsoriano, Jester, Joethepartylion, Pecinko" version="3.2.151">
+</addon><addon id="skin.amber" name="Amber" provider-name="bsoriano, Jester, Joethepartylion, Pecinko" version="3.2.152">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -72,7 +72,13 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.2.151 (28-10-2021)
+        <news>3.2.152 (11-01-2022)
+		- Allow different view types for PVR
+		- Search for trailer and play trailer in window (video info)
+		- Date added and Last Played in video info dialog
+		- Linked movie info in episodes list dialog
+		- Many, many fixes!
+		3.2.151 (28-10-2021)
 		- Shelf Info for 2 shelves together
 		- Episodes List button in OSD
 		- Misc. fixes
